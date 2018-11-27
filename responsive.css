@@ -1,0 +1,111 @@
+
+/***************menue*****/
+
+header .mobile-menu{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+   
+}
+.mobile-menu a{
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 40px;
+    
+    
+    
+}
+.mobile-menu{
+        display: inline-block;
+    }
+@media screen and (min-width:768px)
+{
+    .mobile-menu {
+        display:none;
+    }
+}
+
+.navigation{
+    display: none;
+}
+
+@media screen and (min-width:768px)
+{
+    .navigation {
+        display:block;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .navigation ul li {
+        
+        height: 3em;
+        line-height: 3em;
+        border-bottom: 1px solid #2e4155;
+        border-top: 1px solid #3d5267;
+        text-align: center;
+    }
+    .navigation{
+         background-color: #34495e;
+        padding: 0px 20px;
+    }
+    ul.slider-carousel li{
+    
+    position: relative;
+}
+.navigation{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    right: 0px;
+}
+}
+
+@media screen and (min-width:768px)
+{
+    .navigation ul li{
+    float: right;
+        padding-left: 30px;
+        
+}
+}
+
+/*************** End menue*****/
+
+@media screen and (max-width:992px)
+{
+    .slider,.slider ul, .slider ul li{
+    height: 300px;
+        
+}
+    
+    
+    .blog{
+        text-align: center;
+    }
+    .blog img{
+        margin: 0 auto;
+    }
+    /************ Footer*****************/
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px){
+    form.contact-form
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width:500px){
+    form.contact-form
+    {
+        width: 90%;
+    }
+    
+    
+}
+    /**************** Testimonials*******************///
